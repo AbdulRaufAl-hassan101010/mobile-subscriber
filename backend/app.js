@@ -21,11 +21,11 @@ const PORT = process.env.PORT || 5000;
 // init express app
 const app = express();
 
+app.use(express.json());
+app.use(cookieParser({}));
+
 // static page
 app.use(express.static(path.join(__dirname, "../frontend/build")));
-
-app.use(express.json());
-app.use(cookieParser());
 
 app.post("/api/login", login);
 
