@@ -7,6 +7,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const responseGoogle = async (response) => {
+    console.log(response);
     if (response.error) return;
 
     const res = await axios.post("api/login", { token: response.tokenId });
@@ -20,7 +21,7 @@ const Login = () => {
       <Nav />
       <div className="">
         <GoogleLogin
-          clientId="905667393897-fk9qq7rgbucgt3lr7c7t2fe8qu4j0vcb.apps.googleusercontent.com"
+          clientId="905667393897-n7580bpumvad6jq5gfnn99j1g09o0r6e.apps.googleusercontent.com"
           buttonText="Login"
           onSuccess={responseGoogle}
           onFailure={responseGoogle}

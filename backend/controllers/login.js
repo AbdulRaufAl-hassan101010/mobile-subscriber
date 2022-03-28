@@ -19,6 +19,7 @@ const login = async (req, res) => {
   verify()
     .then((result) => {
       res.cookie("session-token", token, { httpOnly: false });
+      console.log(res.cookie);
       res.status(200).json("success");
     })
     .catch(console.error);
