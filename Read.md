@@ -22,12 +22,6 @@ Run this to install the packages(node_module)
 npm install
 ```
 
-cd into frontend and run
-
-```nodejs
-npm install
-```
-
 &nbsp;
 &nbsp;
 

@@ -21,7 +21,7 @@ const Login = () => {
       <Nav />
       <div className="">
         <GoogleLogin
-          clientId="342881308309-qqueprcai3n7e439aenm05u5on38l3e0.apps.googleusercontent.com"
+          clientId="905667393897-b11o779dfrgsf751ee5aiq3iu0fm7jkc.apps.googleusercontent.com"
           buttonText="Login"
           onSuccess={responseGoogle}
           onFailure={responseGoogle}
