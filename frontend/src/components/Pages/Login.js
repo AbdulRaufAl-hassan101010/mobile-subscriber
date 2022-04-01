@@ -7,12 +7,9 @@ const Login = () => {
   const navigate = useNavigate();
 
   const responseGoogle = async (response) => {
-    console.log(response);
     if (response.error) return;
 
     const res = await axios.post("api/login", { token: response.tokenId });
-
-    console.log(res.data);
 
     if (res.data === "success") navigate("/");
   };
@@ -25,7 +22,7 @@ const Login = () => {
           buttonText="Login"
           onSuccess={responseGoogle}
           onFailure={responseGoogle}
-          cookiePolicy={"single_host_origin" }
+          cookiePolicy={"single_host_origin"}
           className="btn"
         />
       </div>
