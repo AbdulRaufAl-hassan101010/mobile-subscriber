@@ -234,6 +234,19 @@ h3 {
   flex: 1;
 }
 
+
+.login {
+  width: 100vw;
+  height: calc(100vh - 6rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .btn {
+  width: 20rem;
+}
+
 @media (max-width: 687px) {
   .home-showcase .container {
     align-items: center;

@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import User from "../../Models/User";
-import Owner from "../../Models/Owner";
 import SubscriberPhone from "../../Models/SubcriberPhone";
 
 const EditSubscriber = () => {
@@ -26,7 +24,6 @@ const EditSubscriber = () => {
   useEffect(() => {
     //   get form data and place them in the fields
     (async () => {
-      console.log(params.id);
       const subscriberInfo = await SubscriberPhone.getSubscribersPhones(
         params.id
       );
@@ -34,10 +31,6 @@ const EditSubscriber = () => {
       if (subscriberInfo.error) {
         notification(`server error`, `notification-error`);
       }
-
-      console.log(subscriberInfo);
-
-      console.log(document.querySelector(`.showcase-form `).service_type);
     })();
   }, []);
   return (

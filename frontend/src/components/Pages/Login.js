@@ -16,7 +16,7 @@ const Login = () => {
   return (
     <>
       <Nav />
-      <div className="">
+      <div className="login">
         <GoogleLogin
           clientId="342881308309-qqueprcai3n7e439aenm05u5on38l3e0.apps.googleusercontent.com"
           buttonText="Login"
