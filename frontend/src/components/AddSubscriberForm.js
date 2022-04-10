@@ -1,7 +1,7 @@
 import { useState } from "react";
-import User from "../Models/User";
-import Owner from "../Models/Owner";
-import SubscriberPhone from "../Models/SubcriberPhone";
+import User from "../models/User";
+import Owner from "../models/Owner";
+import SubscriberPhone from "../models/SubcriberPhone";
 
 const AddSubscriberForm = () => {
   const [ownerForm, setOwnerForm] = useState(false);

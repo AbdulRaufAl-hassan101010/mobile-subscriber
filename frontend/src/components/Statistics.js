@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import SubscriberPhone from "../Models/SubcriberPhone";
+import SubscriberPhone from "../models/SubcriberPhone";
 
 const Statistics = (props) => {
   const [postpaid, setPostpaid] = useState();

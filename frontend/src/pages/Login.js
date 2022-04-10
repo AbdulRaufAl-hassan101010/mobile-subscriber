@@ -1,7 +1,7 @@
 import { GoogleLogin } from "react-google-login";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Nav from "../Nav";
+import Nav from "../components/Nav";
 
 const Login = () => {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import SubscriberPhone from "../../Models/SubcriberPhone";
+import SubscriberPhone from "../models/SubcriberPhone";
 
 const EditSubscriber = () => {
   const [ownerForm, setOwnerForm] = useState(false);

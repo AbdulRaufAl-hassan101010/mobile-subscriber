@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import SubscriberPhone from "../Models/SubcriberPhone";
-import User from "../Models/User";
+import SubscriberPhone from "../models/SubcriberPhone";
+import User from "../models/User";
 
 const SubscribersTable = () => {
   const [subscribers, setSubscribers] = useState({});

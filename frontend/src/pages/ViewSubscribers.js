@@ -1,5 +1,5 @@
-import Nav from "../Nav";
-import SubscribersTable from "../SubscribersTable";
+import Nav from "../components/Nav";
+import SubscribersTable from "../components/SubscribersTable";
 
 const ViewSubscribers = () => {
   return (

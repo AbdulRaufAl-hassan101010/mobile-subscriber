@@ -1,6 +1,6 @@
-import Nav from "../Nav";
-import Showcase from "../Showcase";
-import Statistics from "../Statistics";
+import Nav from "../components/Nav";
+import Showcase from "../components/Showcase";
+import Statistics from "../components/Statistics";
 
 const Home = () => {
   function onSignIn(googleUser) {}

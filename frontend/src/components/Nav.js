@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Login from "../Models/Login";
+import Login from "../models/Login";
 
 const Nav = () => {
   const navigate = useNavigate();

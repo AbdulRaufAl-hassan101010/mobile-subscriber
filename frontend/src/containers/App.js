@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Pages/Home";
-import ViewSubscribers from "./components/Pages/ViewSubscribers";
-import Login from "./components/Pages/Login";
-import EditSubscriber from "./components/Pages/EditSubscriber";
+import Home from "../pages/Home";
+import ViewSubscribers from "../pages/ViewSubscribers";
+import Login from "../pages/Login";
+import EditSubscriber from "../pages/EditSubscriber";
 
 const App = () => {
   return (
